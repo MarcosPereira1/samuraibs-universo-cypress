@@ -77,7 +77,7 @@ describe("cadastro", () => {
     });
   });
 
-  context.only("quando não preencho nenhum dos campos obrigatorios", () => {
+  context("quando não preencho nenhum dos campos obrigatorios", () => {
 
     const alertMessages = [
        'Nome é obrigatório',
