@@ -39,7 +39,7 @@ describe("cadastro", () => {
 
     context("quando o email é incorreto", () => {
       const user = {
-        name: "Elizabeth Olsen",
+        name: "Elizabeth Olzen",
         email: "liza.yahoo.com",
         password: "pwd123",
       };
